@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B60353841D7A820800374349 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60353831D7A820800374349 /* main.cpp */; };
 		B603538C1D7A821B00374349 /* Sales_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B603538A1D7A821B00374349 /* Sales_data.cpp */; };
+		B603538F1D7A8D1400374349 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B603538D1D7A8D1400374349 /* Screen.cpp */; };
+		B60353921D7AA88200374349 /* Window_mgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60353901D7AA88200374349 /* Window_mgr.cpp */; };
+		B61032E11D7C0C4900217D1F /* Quote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61032DF1D7C0C4900217D1F /* Quote.cpp */; };
+		B61032E41D7C554E00217D1F /* AccessControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61032E21D7C554E00217D1F /* AccessControl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		B60353831D7A820800374349 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B603538A1D7A821B00374349 /* Sales_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sales_data.cpp; sourceTree = "<group>"; };
 		B603538B1D7A821B00374349 /* Sales_data.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sales_data.hpp; sourceTree = "<group>"; };
+		B603538D1D7A8D1400374349 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		B603538E1D7A8D1400374349 /* Screen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Screen.hpp; sourceTree = "<group>"; };
+		B60353901D7AA88200374349 /* Window_mgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Window_mgr.cpp; sourceTree = "<group>"; };
+		B60353911D7AA88200374349 /* Window_mgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Window_mgr.hpp; sourceTree = "<group>"; };
+		B61032DF1D7C0C4900217D1F /* Quote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quote.cpp; sourceTree = "<group>"; };
+		B61032E01D7C0C4900217D1F /* Quote.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quote.hpp; sourceTree = "<group>"; };
+		B61032E21D7C554E00217D1F /* AccessControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccessControl.cpp; sourceTree = "<group>"; };
+		B61032E31D7C554E00217D1F /* AccessControl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AccessControl.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				B60353831D7A820800374349 /* main.cpp */,
 				B603538A1D7A821B00374349 /* Sales_data.cpp */,
 				B603538B1D7A821B00374349 /* Sales_data.hpp */,
+				B603538D1D7A8D1400374349 /* Screen.cpp */,
+				B603538E1D7A8D1400374349 /* Screen.hpp */,
+				B60353901D7AA88200374349 /* Window_mgr.cpp */,
+				B60353911D7AA88200374349 /* Window_mgr.hpp */,
+				B61032DF1D7C0C4900217D1F /* Quote.cpp */,
+				B61032E01D7C0C4900217D1F /* Quote.hpp */,
+				B61032E21D7C554E00217D1F /* AccessControl.cpp */,
+				B61032E31D7C554E00217D1F /* AccessControl.hpp */,
 			);
 			path = CPlusPrimer;
 			sourceTree = "<group>";
@@ -123,8 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60353921D7AA88200374349 /* Window_mgr.cpp in Sources */,
 				B603538C1D7A821B00374349 /* Sales_data.cpp in Sources */,
 				B60353841D7A820800374349 /* main.cpp in Sources */,
+				B61032E11D7C0C4900217D1F /* Quote.cpp in Sources */,
+				B603538F1D7A8D1400374349 /* Screen.cpp in Sources */,
+				B61032E41D7C554E00217D1F /* AccessControl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +269,7 @@
 				B60353891D7A820800374349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
