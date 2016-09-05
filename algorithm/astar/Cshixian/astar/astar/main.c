@@ -333,6 +333,7 @@ Close* getShortest()
 
 static Close *start;
 static int shortestep;
+
 int printShortest()
 {
     Close *p;

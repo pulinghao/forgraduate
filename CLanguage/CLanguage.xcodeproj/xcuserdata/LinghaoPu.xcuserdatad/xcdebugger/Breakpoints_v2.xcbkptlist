@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "astar/main.c"
-            timestampString = "486473768.662592"
+            filePath = "CLanguage/main.c"
+            timestampString = "493876261.630894"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "435"
-            endingLineNumber = "435"
-            landmarkName = "main()"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fool()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
