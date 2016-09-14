@@ -42,24 +42,22 @@ void fool()
 }
 
 int iii = 42;
+char* getMem(void) {
+    char p[] = "hello world";
+    p[5] = 0x0;
+    return p;
+}
+void test(void) {
+    char *s = 0x0;
+    s = getMem();
+    printf("%s\n",s);
+}
+
 
 int main(void)
 {
-//    fool();
-//    FILE * fp;
-//    int i,a[6]={1,2,3,4,5,6},k = 0;
-//    fp = fopen("~/GitHub/forgraduate/CLanguage/CLanguage/data.dat","w+");
-//    for (i=0;i<6;i++)
-//    {
-//        fseek(fp,0L,0);
-//        fprintf(fp,"%d\n",a[i]);
-//        rewind (fp);
-//        fscanf(fp,"%d",&k);
-//    }
-//    fclose(fp);
-//    printf("%d\n",k);
-    char* str = "xXX";
-    char** strd = {"XXX","BBB"};
+    
+    test();
 }
 
 //int main(){
